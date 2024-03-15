@@ -65,10 +65,27 @@
 .rounded-top-right {
     border-top-right-radius: 140px;
 }
-@media creen and (min-width:0px) and (max-width:768px) {
+@media screen and (min-width:0px) and (max-width:768px) {
     .butt-3{
         margin-left: 0px;
 
         
     }
+    footer{
+        position: fixed;
+    }
+    .images{
+        margin: 10px;
+        margin-bottom: 20px;
+    }
 }
+  
+  footer {
+    background: #122741;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
